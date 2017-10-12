@@ -1,0 +1,35 @@
+[user]
+  name = Roman Kuznetsov
+  email = roman@kuznero.com
+  signingkey = 78F257D890EF9920
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+  autocrlf = input
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short --branches
+  br = branch
+  d = diff --word-diff=color
+  dt = difftool --diff-filter=ACMRTUXB --no-prompt
+  dtp = difftool --diff-filter=ACMRTUXB --prompt
+  m = merge
+  mt = mergetool
+  cl = clean -x -d -f --dry-run
+  cls = clean -x -d -f
+  pl = pull --all
+  ps = push
+[color]
+  ui = true
+[diff]
+  tool = meld
+[difftool]
+  prompt = false
+[merge]
+  tool = meld
+[push]
+  default = simple
+[credential]
+  helper = store

@@ -1,15 +1,15 @@
 # dotfiles
 
-My setup for NixOS!
+This setup is based on Nix for  NixOS!
 
 When updating existing systems:
 
 ```bash
-sudo ./update.sh MODE
+sudo ./update.sh PROFILE_NAME
 ```
 
 When installing fresh new system:
 
 ```bash
-sudo ./install.sh MODE
+sudo ./install.sh core
 ```

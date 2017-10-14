@@ -1,16 +1,16 @@
 { config, pkgs, ... }:
 
 {
-  # Use gpg-agent instead of system-wide ssh-agent
-  programs.ssh.startAgent = false;
-  programs.gnupg = {
-    agent.enable = true;
-    agent.enableSSHSupport = true;
-    agent.enableExtraSocket = true;
-    agent.enableBrowserSocket = true;
-    dirmngr.enable = true;
-  };
-  services.keybase.enable = true;
+  # # Use gpg-agent instead of system-wide ssh-agent
+  # programs.ssh.startAgent = false;
+  # programs.gnupg = { # -- TODO: enable with NixOS 17.09 or above
+  #   agent.enable = true;
+  #   agent.enableSSHSupport = true;
+  #   agent.enableExtraSocket = true;
+  #   agent.enableBrowserSocket = true;
+  #   dirmngr.enable = true;
+  # };
+  # services.keybase.enable = true; -- TODO: enable with NixOS 17.09 or above
 
   security = {
     polkit.enable = true;

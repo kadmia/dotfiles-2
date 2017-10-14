@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-command -v find >/dev/null 2>&1 || { echo >&2 "[find] is required, but not installed.  Aborting."; exit 1; }
 command -v rsync >/dev/null 2>&1 || { echo >&2 "[rsync] is required, but not installed.  Aborting."; exit 1; }
 
 if [[ "$#" -ne 2 ]]; then
@@ -24,7 +23,7 @@ if [ -z "$ROOT" ] ; then
   exit 1 # fail
 fi
 
-if [[ ! -d "$ROOT/profiles/$MODE/" ]]; then
+if [[ ! -f "$ROOT/profiles/$MODE/configuration.nix" ]]; then
   echo Supplied mode does not exist
   exit 1
 fi
@@ -53,15 +52,4 @@ if [[ -f "$TARGET/profiles/$MODE/post-install.sh" ]]; then
   $TARGET/profiles/$MODE/post-install.sh
 fi
 
-echo ""
-for dir in $(find . -iname "*.nix" -print); do
-  echo -e "${RED} * ${NC}$MODE${dir:1}$f ${RED}->${NC} ${dir:2}$f ..."
-  if [[ -f $TARGET/${dir:1}$f ]]; then rm $TARGET/${dir:1}$f; fi
-  if [[ $TARGET == /mnt* ]]; then
-    cp $TARGET/profiles/$MODE${dir:1}$f $TARGET/${dir:1}$f
-  else
-    ln -s $TARGET/profiles/$MODE${dir:1}$f $TARGET/${dir:1}$f
-  fi
-done
-popd
-echo ""
+cp -v "$TARGET/profiles/$MODE/configuration.nix" "$TARGET/"

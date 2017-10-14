@@ -24,6 +24,6 @@ echo -n -e "${GREEN}Password:${NC} "
 read -s password
 echo ""
 
-sed -i "s/\"user\"/\"$user\"/" "$ROOT/networking.nix"
-sed -i "s/\"password\"/\"$password\"/" "$ROOT/networking.nix"
-sed -i "s/\"domain\"/\"$domain\"/" "$ROOT/networking.nix"
+sed -i "s/\"user\"/\"$user\"/" "$ROOT/../../library/networking/danske.nix"
+sed -i "s/\"password\"/\"$password\"/" "$ROOT/../../library/networking/danske.nix"
+sed -i "s/\"domain\"/\"$domain\"/" "$ROOT/../../library/networking/danske.nix"

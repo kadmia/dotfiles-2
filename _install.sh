@@ -53,3 +53,4 @@ if [[ -f "$TARGET/profiles/$MODE/post-install.sh" ]]; then
 fi
 
 cp -v "$TARGET/profiles/$MODE/configuration.nix" "$TARGET/"
+cp -v "$TARGET/profiles/$MODE/global.nix" "$TARGET/"

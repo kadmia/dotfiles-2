@@ -11,6 +11,7 @@
       ./library/devel/haskell80.nix
       ./library/devel/java.nix
       ./library/devel/nix.nix
+      ./library/devel/redis.nix
       ./library/docker/danske.nix
       ./library/dotfiles/danske.nix
       ./library/filesystems.nix

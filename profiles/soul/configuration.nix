@@ -39,10 +39,6 @@
     xrandr --output eDP-1 --scale 0.5x0.5
   '';
 
-  environment.systemPackages = with pkgs; [
-    redis-desktop-manager
-  ];
-
   nix.useSandbox = true;
 
   nixpkgs.config = {

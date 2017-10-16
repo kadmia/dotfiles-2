@@ -68,9 +68,9 @@ echo ""
 echo -e "${RED}## ${GREEN}Applying configuration${NC}"
 echo ""
 
-sed -i "s/username = \".*\";/username = \"$user\";/" "$ROOT/networking.nix"
-sed -i "s/password = \".*\";/password = \"$password\";/" "$ROOT/networking.nix"
-sed -i "s/domain = \".*\";/domain = \"$domain\";/" "$ROOT/networking.nix"
+sed -i "s/username = \".*\";/username = \"$user\";/" "$ROOT/library/networking/danske.nix"
+sed -i "s/password = \".*\";/password = \"$password\";/" "$ROOT/library/networking/danske.nix"
+sed -i "s/domain = \".*\";/domain = \"$domain\";/" "$ROOT/library/networking/danske.nix"
 
 nixos-rebuild boot
 exit_code=$?

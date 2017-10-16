@@ -19,7 +19,7 @@
       ./library/kernel.nix
       ./library/media.nix
       ./library/networking/danske.nix
-      ./library/office.nix
+      ./library/office/common.nix
       ./library/screensavers.nix
       ./library/security/1703.nix
       ./library/shell/tmux.nix

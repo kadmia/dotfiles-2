@@ -12,8 +12,8 @@
       ./library/devel/haskell82.nix
       ./library/devel/java.nix
       ./library/devel/nix.nix
-      ./library/docker/danske.nix
-      ./library/dotfiles.nix
+      ./library/docker/default.nix
+      ./library/dotfiles/default.nix
       ./library/filesystems.nix
       ./library/fonts.nix
       ./library/internet.nix

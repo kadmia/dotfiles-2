@@ -12,7 +12,7 @@
       ./library/devel/java.nix
       ./library/devel/nix.nix
       ./library/docker/danske.nix
-      ./library/dotfiles.nix
+      ./library/dotfiles/danske.nix
       ./library/filesystems.nix
       ./library/fonts.nix
       ./library/internet.nix

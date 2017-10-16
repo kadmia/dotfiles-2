@@ -1,0 +1,36 @@
+[user]
+  name = FxCore Developer
+  email = fxcore@danskebank.dk
+[core]
+  excludesfile = ~/.gitignore
+  editor = vim
+  autocrlf = input
+[alias]
+  st = status
+  ci = commit
+  co = checkout
+  l = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=short --branches
+  br = branch
+  d = diff --word-diff=color
+  dt = difftool --diff-filter=ACMRTUXB --no-prompt
+  dtp = difftool --diff-filter=ACMRTUXB --prompt
+  gdt = difftool --diff-filter=ACMRTUXB --no-prompt --extcmd='vim -g -d -f -geometry=500x500'
+  gdtp = difftool --diff-filter=ACMRTUXB --prompt --extcmd='vim -g -d -f -geometry=500x500'
+  m = merge
+  mt = mergetool
+  cl = clean -x -d -f --dry-run
+  cls = clean -x -d -f
+  pl = pull --all
+  ps = push
+[color]
+  ui = true
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
+[merge]
+  tool = meld
+[push]
+  default = simple
+[credential]
+  helper = store

@@ -7,7 +7,6 @@
       ./bootloader.nix
       ./library/devel/common.nix
       ./library/docker/danske.nix
-      ./library/docker/danske.nix
       ./library/dotfiles.nix
       ./library/filesystems.nix
       ./library/fonts.nix

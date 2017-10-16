@@ -1,6 +1,6 @@
 [user]
-  name = FxCore Developer
-  email = fxcore@danskebank.dk
+  name = Danske Developer
+  email = xxx@danskebank.dk
 [core]
   excludesfile = ~/.gitignore
   editor = vim

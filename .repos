@@ -10,6 +10,7 @@ icicli
 kuvim-themes
 monitor
 nixpkgs
+nixpkgs-dotnet
 panda
 sandbox
 scaffolding

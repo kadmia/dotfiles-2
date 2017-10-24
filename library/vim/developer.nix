@@ -37,7 +37,7 @@
                 "gitgutter"
                 "signify"
                 "toml"
-                "fsharp"
+                "fsharp-syntax"
                 "elm"
                 "kuvim-themes"
                 "papercolor-theme"

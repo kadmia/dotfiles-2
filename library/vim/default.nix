@@ -31,6 +31,7 @@
                 "gitgutter"
                 "signify"
                 "toml"
+                "fsharp-syntax"
                 "kuvim-themes"
                 "papercolor-theme"
                 "spacemacs-theme"

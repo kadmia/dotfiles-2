@@ -164,6 +164,16 @@ in
     dependencies = [];
   };
 
+  "fsharp-syntax" = buildVimPlugin {
+    name = "fsharp-syntax";
+    src = fetchgit {
+      url = "https://github.com/kuznero/vim-fsharp-syntax";
+      rev = "513b37fcb2461cbc32ad6f9096d6ea1f7be05e26";
+      sha256 = "030x176d1jjkgx6kcxvg36vzk3im901dg20b88ldprcg42m5kq42";
+    };
+    dependencies = [];
+  };
+
   "fsharp" = buildVimPlugin {
     name = "fsharp";
     src = fetchgit {

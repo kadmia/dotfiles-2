@@ -368,6 +368,8 @@ let g:fsharp_map_keys = 1
 " let g:fsharp_map_prefix = 'cp'
 let g:fsharp_map_gotodecl = 'g'
 let g:fsharp_map_gobackfromdecl = 'b'
+au BufCreate,BufEnter *.fsproj set filetype=xml
+au BufCreate,BufEnter *.csproj set filetype=xml
 " }}}
 
 " NERDTree {{{

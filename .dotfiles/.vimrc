@@ -55,6 +55,8 @@ set listchars=tab:•\ ,trail:•,extends:»,precedes:«
 set list
 set showbreak=>>\ 
 set lazyredraw
+set splitright
+set splitbelow
 " set diffopt+=iwhite
 if exists('g:loaded_fugitive')
   set statusline+=%{fugitive#statusline()}
@@ -78,8 +80,6 @@ set wildignore+=*.dll
 set wildignore+=*.exe
 set wildignore+=*.mdb
 set wildignore+=*.pdb
-set wildignore+=*.xml
-set wildignore+=*.XML
 set wildignore+=*.sigdata
 set wildignore+=*.optdata
 set wildignore+=*.gitattributes

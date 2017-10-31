@@ -8,9 +8,10 @@
       <property name="position" type="string" value="p=6;x=0;y=0"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
-      <property name="size" type="uint" value="32"/>
+      <property name="size" type="uint" value="36"/>
       <property name="plugin-ids" type="array">
         <value type="int" value="1"/>
+        <value type="int" value="12"/>
         <value type="int" value="3"/>
         <value type="int" value="15"/>
         <value type="int" value="11"/>
@@ -23,6 +24,7 @@
         <value type="int" value="2"/>
         <value type="int" value="9"/>
       </property>
+      <property name="background-alpha" type="uint" value="0"/>
     </property>
   </property>
   <property name="plugins" type="empty">
@@ -66,5 +68,6 @@
         <property name="never-confirm-history-clear" type="bool" value="true"/>
       </property>
     </property>
+    <property name="plugin-12" type="string" value="genmon"/>
   </property>
 </channel>

@@ -1,6 +1,6 @@
 [user]
-  name = Danske Developer
-  email = xxx@danskebank.dk
+  name = Adam Britt
+  email = adb@danskebank.dk
 [core]
   excludesfile = ~/.gitignore
   editor = vim

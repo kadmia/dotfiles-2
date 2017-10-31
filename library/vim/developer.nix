@@ -5,7 +5,7 @@
     wmctrl
     (
       let
-        vimrc = builtins.readFile ../../.dotfiles/.vimrc;
+        vimrc = builtins.readFile ../../.dotfiles-danske/.vimrc;
         rc = ''
           ${vimrc}
         '';

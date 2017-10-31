@@ -9,5 +9,6 @@
     tree
     file
     meld
+    sublime3
   ];
 }

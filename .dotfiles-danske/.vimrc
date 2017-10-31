@@ -12,7 +12,6 @@ syntax on
 filetype plugin indent on
 set nocompatible
 set number
-set relativenumber
 set nowrap
 set showmode
 set textwidth=0
@@ -382,7 +381,7 @@ let g:NERDTreeIgnore = ['\.swp$', '^bin$', '^obj$', '^dist$']
 " let g:NERDTreeCaseSensitiveSort = 1
 " let g:NERDTreeMinimalUI = 1
 " let g:NERDTreeShowLineNumbers = 1
-let g:NERDTreeQuitOnOpen = 1
+" let g:NERDTreeQuitOnOpen = 1
 " let g:NERDTreeShowBookmarks = 1
 " let NERDTreeHijackNetrw = 1
 let g:NERDChristmasTree = 1

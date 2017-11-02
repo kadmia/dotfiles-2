@@ -8,7 +8,7 @@
       ./library/devel/common.nix
       ./library/devel/dotnet.nix
       ./library/devel/elm.nix
-      ./library/devel/haskell80.nix
+      ./library/devel/haskell82.nix
       ./library/devel/java.nix
       ./library/devel/nix.nix
       ./library/devel/redis.nix
@@ -22,7 +22,7 @@
       ./library/networking/danske.nix
       ./library/office/common.nix
       ./library/screensavers.nix
-      ./library/security/1703.nix
+      ./library/security/default.nix
       ./library/shell/tmux.nix
       ./library/shell/zsh.nix
       ./library/users.nix

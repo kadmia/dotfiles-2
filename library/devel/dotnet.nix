@@ -7,6 +7,6 @@ let
 in
 {
   environment.systemPackages = with pkgs; [
-    mono46 unstable.fsharp41
+    mono46 unstable.fsharp41 unstable.dotnet-sdk
   ];
 }

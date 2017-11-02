@@ -9,6 +9,7 @@
       ./library/docker/danske.nix
       ./library/dotfiles/default.nix
       ./library/fonts.nix
+      ./library/internet.nix
       ./library/kernel.nix
       ./library/networking/danske.nix
       ./library/office/common.nix

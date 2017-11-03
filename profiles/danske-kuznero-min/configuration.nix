@@ -14,6 +14,7 @@
       ./library/networking/danske.nix
       ./library/office/common.nix
       ./library/screensavers.nix
+      ./library/security/default.nix
       ./library/shell/tmux.nix
       ./library/shell/zsh.nix
       ./library/users.nix

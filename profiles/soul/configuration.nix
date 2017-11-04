@@ -47,7 +47,7 @@
 
   # Select internationalisation properties.
   i18n = {
-    consoleFont = "Lat2-Terminus16";
+    consoleFont = "latarcyrheb-sun32";
     consoleKeyMap = "us";
     defaultLocale = "en_US.UTF-8";
   };

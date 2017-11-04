@@ -5,13 +5,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./bootloader.nix
-      ./library/data.nix
       ./library/devel/common.nix
-      ./library/devel/dotnet.nix
-      ./library/devel/elm.nix
-      ./library/devel/haskell82.nix
-      ./library/devel/java.nix
-      ./library/devel/nix.nix
       ./library/docker/default.nix
       ./library/dotfiles/default.nix
       ./library/filesystems.nix
@@ -21,8 +15,6 @@
       ./library/media.nix
       ./library/networking/default.nix
       ./library/office/common.nix
-      ./library/office/libreoffice.nix
-      ./library/office/texlive.nix
       ./library/screensavers.nix
       ./library/security/default.nix
       ./library/shell/tmux.nix

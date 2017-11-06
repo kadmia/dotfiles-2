@@ -63,7 +63,6 @@
           thunar_volman
         ];
       };
-      resolutions = [ { x = 1920; y = 1080; } ];
       synaptics = {
         enable = true;
         twoFingerScroll = true;

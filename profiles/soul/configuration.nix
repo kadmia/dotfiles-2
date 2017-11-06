@@ -29,6 +29,8 @@
 
   nix.useSandbox = true;
 
+  services.xserver.resolutions = [ { x = 1920; y = 1080; } ];
+
   nixpkgs.config = {
     allowUnfree = true;
     firefox.enableAdobeFlash = false;

@@ -11,9 +11,11 @@ kuvim-themes
 monitor
 nixpkgs
 nixpkgs-dotnet
+nlewo-nixpkgs-hydra
 panda
 sandbox
 scaffolding
 scripts
 slides
+vim-fsharp-syntax
 xfce4-pomodoro

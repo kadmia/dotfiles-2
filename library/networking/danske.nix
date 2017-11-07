@@ -10,7 +10,7 @@
     proxy.default = "http://127.0.0.1:3128/";
     firewall.enable = false;
     # wireless.enable = true;  # Enables wireless support via wpa_supplicant.
-    networkmanager.enable = true;
+    networkmanager.enable = false;
     # nameservers = [
     #   "8.8.8.8"
     #   "8.8.4.4"

@@ -1,15 +1,4 @@
-let
-  _pkgs = import <nixpkgs> {};
-in
-{ config
-, pkgs ? import (
-    _pkgs.fetchFromGitHub {
-      owner = "NixOS";
-      repo = "nixpkgs-channels";
-      rev = "57554d5eced1626cb482c8fc8096bf7578b3ae42";
-      sha256 = "...";
-    }) {}
-, ... }:
+{ config, pkgs, ... }:
 
 {
   imports = [ ./hardware-configuration.nix ];

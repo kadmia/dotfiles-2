@@ -78,7 +78,6 @@
     setopt extendedhistory
     plugins=(git git-extras colored-man-pages docker github tmux)
     source $ZSH/oh-my-zsh.sh
-    export PROMPT='%m %{${fg_bold[blue]}%}:: %{$reset_color%}%{${fg[green]}%}%3~ $(git_prompt_info)%{${fg_bold[blue]}%}@%{$reset_color%} %{${fg_bold[red]}%}[$(ssh-add -L | sed "s/.*\///" | grep -v "The agent" | paste -sd "|" -)]%{$reset_color%} %{${fg_bold[yellow]}%}[${DOCKER_HOST}]%{$reset_color%} %{${fg_bold[$CARETCOLOR]}%}»%{${reset_color}%} '
   '';
 
   programs.zsh.promptInit = ""; # Clear this to avoid a conflict with oh-my-zsh

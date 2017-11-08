@@ -32,7 +32,8 @@
   };
 
   i18n = {
-    consoleFont = "latarcyrheb-sun32";
+    # consoleFont = "latarcyrheb-sun16";
+    consoleFont = "sun12x22";
     consoleKeyMap = "us";
     defaultLocale = "en_US.UTF-8";
   };

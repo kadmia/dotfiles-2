@@ -6,6 +6,8 @@
   boot.loader.grub.enable = true;
   boot.loader.grub.version = 2;
   boot.loader.grub.device = "/dev/sda";
+  boot.loader.grub.gfxmodeBios = "800x600";
+  boot.kernelParams = [ "nomodeset" "vga=0x317" ];
   boot.kernel.sysctl = { "vm.max_map_count" = 262144; };
 
   environment.variables.HTTP_PROXY = "http://127.0.0.1:3128/";
@@ -32,8 +34,8 @@
   };
 
   i18n = {
-    # consoleFont = "latarcyrheb-sun16";
-    consoleFont = "sun12x22";
+    consoleFont = "latarcyrheb-sun16";
+    # consoleFont = "sun12x22";
     consoleKeyMap = "us";
     defaultLocale = "en_US.UTF-8";
   };

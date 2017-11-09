@@ -24,7 +24,7 @@
       ./library/x/xfce.nix
     ];
 
-  nix.useSandbox = true;
+  nix.useSandbox = false;
 
   nixpkgs.config = {
     allowUnfree = true;

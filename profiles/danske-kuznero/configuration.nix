@@ -6,7 +6,6 @@
       ./hardware-configuration.nix
       ./bootloader.nix
       ./library/devel/common.nix
-      ./library/devel/haskell82.nix
       ./library/docker/danske.nix
       ./library/dotfiles/default.nix
       ./library/fonts.nix

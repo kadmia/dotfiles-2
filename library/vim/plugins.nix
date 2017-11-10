@@ -239,6 +239,16 @@ in
     dependencies = [];
   };
 
+  hasksyn = buildVimPlugin {
+    name = "hasksyn";
+    src = fetchgit {
+      url = "https://github.com/travitch/hasksyn.git";
+      rev = "c434040bf13a17ca20a551223021b3ace7e453b9";
+      sha256 = "9db37159a0527a45ee4b5e3599708de6106f9ea25c18508b8e186ae62c452925";
+    };
+    dependencies = [];
+  };
+
   "kuvim-themes" = buildVimPlugin {
     name = "kuvim-themes";
     src = fetchgit {

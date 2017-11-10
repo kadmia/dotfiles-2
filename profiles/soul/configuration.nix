@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./bootloader.nix
       ./library/devel/common.nix
+      ./library/devel/haskell.nix
       ./library/docker/default.nix
       ./library/dotfiles/default.nix
       ./library/filesystems.nix

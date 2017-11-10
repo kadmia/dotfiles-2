@@ -243,8 +243,8 @@ in
     name = "kuvim-themes";
     src = fetchgit {
       url = "https://github.com/kuznero/kuvim-themes.git";
-      rev = "e5db3e292034d697278db50ac6c2e534ea8efd0b";
-      sha256 = "0v1k8x1234vcb8r6524yi7fpmb95rssbnnrizpcfrplrp4afgd65";
+      rev = "fc922de48b85b811fa01d43db33524b08b5afbea";
+      sha256 = "20dbaf097af48937432f9bd696920157bb76ce63b4386b8e0ea9c56a1f61110d";
     };
     dependencies = [];
   };

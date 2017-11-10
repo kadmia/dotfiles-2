@@ -105,12 +105,12 @@ if has( "gui_running" )
   set guioptions-=T
   set guioptions-=r
   set guioptions-=L
-  set guifont=Iosevka\ Light\ 13
+  set guifont=Iosevka\ Light\ 14
   set background=dark
-  colorscheme kuznero-eva-regular
+  colorscheme kuznero-dark-regular
   hi Conceal ctermfg=7 ctermbg=8 guifg=LightGray guibg=#263238
-  hi Search term=reverse ctermfg=236 ctermbg=221 guifg=#222222 guibg=#ff7777
-  hi IncSearch term=reverse cterm=reverse ctermfg=221 gui=reverse guifg=#ff4444 guibg=#222222
+  " hi Search term=reverse ctermfg=236 ctermbg=221 guifg=#222222 guibg=#ff7777
+  " hi IncSearch term=reverse cterm=reverse ctermfg=221 gui=reverse guifg=#ff4444 guibg=#222222
   " Syntax highlighting
   hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#878787 guibg=NONE gui=italic
   hi Constant ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
@@ -292,8 +292,8 @@ let g:airline#extensions#tabline#left_alt_sep = ' '
 let g:airline#extensions#tabline#right_sep = ' '
 let g:airline#extensions#tabline#right_alt_sep = ' '
 let g:airline_powerline_fonts = 1
-" let g:airline_theme='papercolor'
-let g:airline_theme = 'quantum'
+let g:airline_theme='papercolor'
+" let g:airline_theme = 'quantum'
 " }}}
 
 " CtrlP {{{

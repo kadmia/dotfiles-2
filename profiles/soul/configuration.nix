@@ -1,5 +1,8 @@
 { config, pkgs, ... }:
 
+let
+  global = (import ./global.nix);
+in
 {
   imports =
     [ # Include the results of the hardware scan.
@@ -41,6 +44,22 @@
     bluetooth = {
       enable = true;
       powerOnBoot = true;
+    };
+  };
+
+  system.activationScripts = {
+    asoundRc = {
+      text = ''
+        echo "pcm.!default {" > /home/${global.userName}/.asoundrc
+        echo "  type hw" >> /home/${global.userName}/.asoundrc
+        echo "  card 1" >> /home/${global.userName}/.asoundrc
+        echo "}" >> /home/${global.userName}/.asoundrc
+        echo "ctl.!default {" >> /home/${global.userName}/.asoundrc
+        echo "  type hw" >> /home/${global.userName}/.asoundrc
+        echo "  card 1" >> /home/${global.userName}/.asoundrc
+        echo "}" >> /home/${global.userName}/.asoundrc
+      '';
+      deps = [ "users" ];
     };
   };
 

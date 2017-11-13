@@ -1,5 +1,5 @@
 [Configuration]
-FontName=Iosevka Light 14
+FontName=Inconsolata for Powerline 13
 MiscAlwaysShowTabs=FALSE
 MiscBell=FALSE
 MiscBordersDefault=TRUE

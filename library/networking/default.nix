@@ -19,7 +19,7 @@ in
       #     { address = "192.168.8.152"; prefixLength = 24; }
       #   ];
       # };
-      networkmanager.enable = false;
+      networkmanager.enable = true;
       nameservers = [];
       firewall = {
         enable = true;

@@ -105,12 +105,12 @@ if has( "gui_running" )
   set guioptions-=T
   set guioptions-=r
   set guioptions-=L
-  set guifont=Iosevka\ Light\ 13
+  set guifont=Iosevka\ Light\ 14
   set background=dark
-  colorscheme kuznero-eva-regular
+  colorscheme kuznero-dark-regular
   hi Conceal ctermfg=7 ctermbg=8 guifg=LightGray guibg=#263238
-  hi Search term=reverse ctermfg=236 ctermbg=221 guifg=#222222 guibg=#ff7777
-  hi IncSearch term=reverse cterm=reverse ctermfg=221 gui=reverse guifg=#ff4444 guibg=#222222
+  " hi Search term=reverse ctermfg=236 ctermbg=221 guifg=#222222 guibg=#ff7777
+  " hi IncSearch term=reverse cterm=reverse ctermfg=221 gui=reverse guifg=#ff4444 guibg=#222222
   " Syntax highlighting
   hi Comment ctermfg=102 ctermbg=NONE cterm=NONE guifg=#878787 guibg=NONE gui=italic
   hi Constant ctermfg=156 ctermbg=NONE cterm=NONE guifg=#AFFF87 guibg=NONE gui=NONE
@@ -292,8 +292,8 @@ let g:airline#extensions#tabline#left_alt_sep = ' '
 let g:airline#extensions#tabline#right_sep = ' '
 let g:airline#extensions#tabline#right_alt_sep = ' '
 let g:airline_powerline_fonts = 1
-" let g:airline_theme='papercolor'
-let g:airline_theme = 'quantum'
+let g:airline_theme='papercolor'
+" let g:airline_theme = 'quantum'
 " }}}
 
 " CtrlP {{{
@@ -314,12 +314,12 @@ set statusline+=%*
 " }}}
 
 " Haskell {{{
-let g:haskellmode_completion_ghc = 1
-autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
-let g:haskell_tabular = 1
-let g:hindent_on_save = 0
-let g:hindent_indent_size = 2
-let g:hindent_line_length = 100
+" let g:haskellmode_completion_ghc = 1
+" autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
+" let g:haskell_tabular = 1
+" let g:hindent_on_save = 0
+" let g:hindent_indent_size = 2
+" let g:hindent_line_length = 100
 
 hi hsStructure gui=NONE guifg=#2060A0
 hi hsStatement gui=NONE guifg=#2060A0

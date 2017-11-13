@@ -2,6 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
+    nix-prefetch-git
     gitAndTools.gitFull
     gnumake
     binutils

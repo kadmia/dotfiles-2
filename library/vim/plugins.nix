@@ -239,12 +239,22 @@ in
     dependencies = [];
   };
 
+  hasksyn = buildVimPlugin {
+    name = "hasksyn";
+    src = fetchgit {
+      url = "https://github.com/travitch/hasksyn.git";
+      rev = "c434040bf13a17ca20a551223021b3ace7e453b9";
+      sha256 = "9db37159a0527a45ee4b5e3599708de6106f9ea25c18508b8e186ae62c452925";
+    };
+    dependencies = [];
+  };
+
   "kuvim-themes" = buildVimPlugin {
     name = "kuvim-themes";
     src = fetchgit {
       url = "https://github.com/kuznero/kuvim-themes.git";
-      rev = "e5db3e292034d697278db50ac6c2e534ea8efd0b";
-      sha256 = "0v1k8x1234vcb8r6524yi7fpmb95rssbnnrizpcfrplrp4afgd65";
+      rev = "fc922de48b85b811fa01d43db33524b08b5afbea";
+      sha256 = "20dbaf097af48937432f9bd696920157bb76ce63b4386b8e0ea9c56a1f61110d";
     };
     dependencies = [];
   };

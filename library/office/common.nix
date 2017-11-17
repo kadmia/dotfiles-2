@@ -7,5 +7,6 @@
     taskwarrior
     tasksh
     gtk-recordmydesktop
+    simplescreenrecorder
   ];
 }

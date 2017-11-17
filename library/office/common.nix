@@ -6,6 +6,7 @@
     poppler_utils
     taskwarrior
     tasksh
+    obs-studio
     gtk-recordmydesktop
     simplescreenrecorder
   ];

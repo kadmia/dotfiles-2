@@ -6,9 +6,5 @@
     poppler_utils
     taskwarrior
     tasksh
-    shutter
-    obs-studio
-    gtk-recordmydesktop
-    simplescreenrecorder
   ];
 }

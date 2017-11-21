@@ -2,7 +2,7 @@
 
 {
   environment.systemPackages = with pkgs; [
-    smplayer
+    mpv smplayer
     exif
     ffmpeg
     gphoto2

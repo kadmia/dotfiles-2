@@ -29,4 +29,8 @@
       NoProxy *.danskenet.net soul
     '';
   };
+  programs.ssh.extraConfig = ''
+Host *
+  ProxyCommand nc -X connect -x 127.0.0.1:3128 %h %p
+  '';
 }

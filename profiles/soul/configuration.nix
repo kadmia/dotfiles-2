@@ -19,6 +19,7 @@ in
       ./library/media.nix
       ./library/networking/default.nix
       ./library/office/common.nix
+      ./library/office/libreoffice.nix
       ./library/screensavers.nix
       ./library/security/default.nix
       ./library/shell/tmux.nix

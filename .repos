@@ -1,4 +1,5 @@
 blog
+cloudops
 consensus
 docker
 dotfiles
@@ -9,7 +10,9 @@ hs-lambda
 hs-sandbox
 icicli
 kuvim-themes
+mdslider
 monitor
+nixops
 nixpkgs
 nixpkgs-dotnet
 nlewo-nixpkgs-hydra

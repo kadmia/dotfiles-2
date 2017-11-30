@@ -32,5 +32,3 @@
   tool = meld
 [push]
   default = simple
-[credential]
-  helper = store

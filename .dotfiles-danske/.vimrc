@@ -104,9 +104,9 @@ if has( "gui_running" )
   set guioptions-=T
   set guioptions-=r
   set guioptions-=L
-  set guifont=Iosevka\ Light\ 14
+  set guifont=Inconsolata\ for\ Powerline\ 13
   set background=dark
-  colorscheme kuznero-dark-regular
+  colorscheme wombat
   hi Conceal ctermfg=7 ctermbg=8 guifg=LightGray guibg=#263238
   " hi Search term=reverse ctermfg=236 ctermbg=221 guifg=#222222 guibg=#ff7777
   " hi IncSearch term=reverse cterm=reverse ctermfg=221 gui=reverse guifg=#ff4444 guibg=#222222

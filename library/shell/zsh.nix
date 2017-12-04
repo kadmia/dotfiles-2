@@ -30,7 +30,8 @@
   programs.zsh.promptInit = ""; # Clear this to avoid a conflict with oh-my-zsh
 
   environment.shellAliases = {
-    gvim = "vim -g -geometry=500x500";
+    gvim = "vim -g";
+    # gvim = "vim -g -geometry=500x500";
   };
 
   environment.variables = {

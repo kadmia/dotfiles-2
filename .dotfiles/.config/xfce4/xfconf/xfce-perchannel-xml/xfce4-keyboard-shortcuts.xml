@@ -35,7 +35,7 @@
       <property name="&lt;Primary&gt;Escape" type="string" value="xfdesktop --menu"/>
       <property name="override" type="bool" value="true"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;e" type="string" value="thunar"/>
-      <property name="&lt;Primary&gt;&lt;Alt&gt;v" type="string" value="vim -g -geometry=500x500"/>
+      <property name="&lt;Primary&gt;&lt;Alt&gt;v" type="string" value="vim -g"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;t" type="string" value="xfce4-terminal --hide-menubar --hide-toolbar --maximize"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;f" type="string" value="firefox"/>
       <property name="&lt;Primary&gt;&lt;Alt&gt;b" type="string" value="chromium"/>

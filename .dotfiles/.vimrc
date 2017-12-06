@@ -105,7 +105,7 @@ if has( "gui_running" )
   set guioptions-=T
   set guioptions-=r
   set guioptions-=L
-  set guifont=Hurmit\ Nerd\ Font\ Light\ 13
+  set guifont=PT\ Mono\ 13
   set background=dark
   colorscheme kuznero-dark-regular
   hi Conceal ctermfg=7 ctermbg=8 guifg=LightGray guibg=#263238

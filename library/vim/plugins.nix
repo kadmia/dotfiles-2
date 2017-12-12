@@ -338,4 +338,14 @@ in
     };
     dependencies = [];
   };
+
+  "go" = buildVimPlugin {
+    name = "go";
+    src = fetchgit {
+      url = "https://github.com/fatih/vim-go";
+      rev = "010d0cc592926e97140846655f92c5c685cec374";
+      sha256 = "1wj44xmygdw4nb963ds8vp2fdahc9wjbig64zgj087331qdk2gq2";
+    };
+    dependencies = [];
+  };
 }

@@ -11,7 +11,8 @@
       ./library/docker/danske.nix
       ./library/dotfiles/default.nix
       ./library/fonts.nix
-      ./library/internet.nix
+      ./library/internet/browsers.nix
+      ./library/internet/chat.nix
       ./library/kernel.nix
       ./library/networking/danske.nix
       ./library/office/common.nix

@@ -2,8 +2,6 @@
 
 {
   environment.systemPackages = with pkgs; [
-    chromium
-    slack
-    weechat
+    dropbox
   ];
 }

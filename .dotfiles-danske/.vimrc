@@ -313,6 +313,7 @@ set statusline+=%*
 " }}}
 
 " Haskell {{{
+autocmd FileType haskell setlocal keywordprg=hoogle
 " let g:haskellmode_completion_ghc = 1
 " autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
 " let g:haskell_tabular = 1

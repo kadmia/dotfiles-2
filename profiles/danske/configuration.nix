@@ -16,7 +16,7 @@
       ./library/dotfiles/danske.nix
       ./library/filesystems.nix
       ./library/fonts.nix
-      ./library/internet.nix
+      ./library/internet/browsers.nix
       ./library/kernel.nix
       ./library/media.nix
       ./library/networking/danske.nix

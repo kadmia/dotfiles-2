@@ -105,7 +105,7 @@ if has( "gui_running" )
   set guioptions-=T
   set guioptions-=r
   set guioptions-=L
-  set guifont=Iosevka\ Light\ 14
+  set guifont=PT\ Mono\ 14
   set background=dark
   colorscheme kuznero-dark-regular
   hi Conceal ctermfg=7 ctermbg=8 guifg=LightGray guibg=#263238
@@ -314,6 +314,7 @@ set statusline+=%*
 " }}}
 
 " Haskell {{{
+autocmd FileType haskell setlocal keywordprg=hoogle
 " let g:haskellmode_completion_ghc = 1
 " autocmd FileType haskell setlocal omnifunc=necoghc#omnifunc
 " let g:haskell_tabular = 1

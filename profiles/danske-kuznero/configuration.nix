@@ -7,6 +7,7 @@
       ./bootloader.nix
       ./library/devel/common.nix
       ./library/devel/dotnet.nix
+      ./library/devel/go.nix
       ./library/devel/haskell.nix
       ./library/docker/danske.nix
       ./library/dotfiles/default.nix

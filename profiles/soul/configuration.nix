@@ -9,6 +9,7 @@ in
       ./hardware-configuration.nix
       ./bootloader.nix
       ./library/devel/common.nix
+      ./library/devel/go.nix
       ./library/devel/haskell.nix
       ./library/docker/default.nix
       ./library/dotfiles/default.nix

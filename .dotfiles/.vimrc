@@ -333,9 +333,6 @@ autocmd FileType haskell vmap al :Tabularize /[\[\\|,]<CR>
 " }}}
 
 " Go {{{
-autocmd FileType go map <silent> <F12> :GoDef<CR>
-autocmd FileType go map <silent> <F8> :GoErrCheck<CR>
-autocmd FileType go map <silent> <S-F8> :GoLint<CR>
 autocmd FileType go map <silent> <F2> :GoRename<CR>
 autocmd FileType go map <silent> <F3> :GoAlternate<CR>
 autocmd FileType go map <silent> <F4> :GoFmt<CR>
@@ -343,6 +340,10 @@ autocmd FileType go map <silent> <F5> :GoRun<CR>
 autocmd FileType go map <silent> <F6> :GoTest<CR>
 autocmd FileType go map <silent> <S-F6> :GoTestFunc<CR>
 autocmd FileType go map <silent> <F7> :GoBuild<CR>
+autocmd FileType go map <silent> <F8> :GoErrCheck<CR>
+autocmd FileType go map <silent> <S-F8> :GoLint<CR>
+autocmd FileType go map <silent> <F9> :GoInfo<CR>
+autocmd FileType go map <silent> <F12> :GoDef<CR>
 " }}}
 
 " Markdown {{{

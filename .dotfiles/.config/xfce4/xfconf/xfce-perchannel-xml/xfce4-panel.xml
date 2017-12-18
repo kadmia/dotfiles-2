@@ -30,7 +30,7 @@
   <property name="plugins" type="empty">
     <property name="plugin-1" type="string" value="applicationsmenu">
       <property name="show-button-title" type="bool" value="false"/>
-      <property name="button-icon" type="string" value="brave"/>
+      <property name="button-icon" type="string" value="gnome-fs-executable"/>
     </property>
     <property name="plugin-2" type="string" value="actions"/>
     <property name="plugin-3" type="string" value="tasklist"/>

@@ -23,6 +23,7 @@ in
       ./library/networking/default.nix
       ./library/office/common.nix
       ./library/office/libreoffice.nix
+      ./library/office/texlive.nix
       ./library/screensavers.nix
       ./library/security/default.nix
       ./library/shell/tmux.nix

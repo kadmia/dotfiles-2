@@ -15,9 +15,6 @@
     #   "8.8.8.8"
     #   "8.8.4.4"
     # ];
-    extraHosts = ''
-      146.185.144.154 lipa.ms.mff.cuni.cz
-    '';
   };
   services.cntlm = {
     enable = true;

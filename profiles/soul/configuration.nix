@@ -26,6 +26,7 @@ in
       ./library/office/texlive.nix
       ./library/screensavers.nix
       ./library/security/default.nix
+      ./library/shell/terminology.nix
       ./library/shell/tmux.nix
       ./library/shell/zsh.nix
       ./library/users.nix

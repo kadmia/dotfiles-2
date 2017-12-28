@@ -97,7 +97,7 @@ function process_files() {
       fi
       files=$((files+1))
       pct=$(printf "% 4.0f" $((files * 100 / total_files)))
-      echo -ne "\r[$pct % ]  ${color}$target${NC} << ${color}${filename:0:20}${NC} ${CLREOL}"
+      echo -ne "\r[$pct % ]  ${color}$target${NC} << ${color}${filename}${NC} ${CLREOL}"
       echo -e "[$pct % ]  ${color}$filename${NC} >> ${color}$target${NC} " >> mimport.log
       mkdir -p "$target" > /dev/null
       rsync --size-only "$p" "$target"

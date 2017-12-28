@@ -14,12 +14,12 @@ NC='\033[0m'
 CLREOL=$'\x1B[K'
 
 function usage() {
-  echo "Expected arguments are missing: -d|-k SRC_PATH DEST_PATH IMAGE_PREFIX VIDEO_PREFIX"
+  echo "Expected arguments are missing: -d|-k SRC_PATH DEST_PATH"
   echo "    -k    - keeps source files after copying it to destination"
   echo "    -d    - deletes source files after copying it to destination"
 }
 
-if [[ "$#" -ne 5 ]]; then
+if [[ "$#" -ne 3 ]]; then
   usage
   exit 1
 fi
@@ -27,8 +27,8 @@ fi
 flag=$1
 src=$2
 dst=$3
-image_prefix=$4
-video_prefix=$5
+image_prefix="photos"
+video_prefix="videos"
 
 if [ "$flag" != "-d" ]; then
   if [ "$flag" != "-k" ]; then

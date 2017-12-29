@@ -10,7 +10,7 @@
       ./library/devel/go.nix
       ./library/devel/haskell.nix
       ./library/docker/danske.nix
-      ./library/dotfiles/default.nix
+      ./library/dotfiles/danske.nix
       ./library/fonts.nix
       ./library/internet/browsers.nix
       ./library/internet/chat.nix

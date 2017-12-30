@@ -16,7 +16,6 @@ in
       ./library/filesystems.nix
       ./library/fonts.nix
       ./library/internet/chat.nix
-      ./library/internet/filesync.nix
       ./library/internet/browsers.nix
       ./library/kernel.nix
       ./library/media.nix

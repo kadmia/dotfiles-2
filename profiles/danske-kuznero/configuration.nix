@@ -14,6 +14,7 @@
       ./library/fonts.nix
       ./library/internet/browsers.nix
       ./library/internet/chat.nix
+      ./library/internet/news.nix
       ./library/kernel.nix
       ./library/networking/danske.nix
       ./library/office/common.nix

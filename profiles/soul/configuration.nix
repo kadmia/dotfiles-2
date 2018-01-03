@@ -15,8 +15,9 @@ in
       ./library/dotfiles/default.nix
       ./library/filesystems.nix
       ./library/fonts.nix
-      ./library/internet/chat.nix
       ./library/internet/browsers.nix
+      ./library/internet/chat.nix
+      ./library/internet/news.nix
       ./library/kernel.nix
       ./library/media.nix
       ./library/networking/default.nix

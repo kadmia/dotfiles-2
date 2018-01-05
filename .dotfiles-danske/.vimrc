@@ -210,6 +210,8 @@ autocmd FileType haskell vmap al :Tabularize /[\[\\|,]<CR>
 " }}}
 
 " Go {{{
+autocmd FileType go setlocal nolist
+
 autocmd FileType go map <silent> <F2> :GoRename<CR>
 autocmd FileType go map <silent> <F3> :GoAlternate<CR>
 autocmd FileType go map <silent> <F4> :GoFmt<CR>

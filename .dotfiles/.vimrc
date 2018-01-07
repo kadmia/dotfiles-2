@@ -200,8 +200,7 @@ autocmd FileType haskell map <silent> <leader>i :GhcModInfo<CR>
 autocmd FileType haskell map <silent> <leader>I :GhcModInfoPreview<CR>
 autocmd FileType haskell map <silent> <leader>l :GhcModLint<CR>
 autocmd FileType haskell map <silent> <leader>e :GhcModExpand<CR>
-autocmd FileType haskell map <silent> <leader>g :GhcModSigCodegen<CR>
-autocmd FileType haskell map <silent> <leader>s :GhcModSplitFunCase<CR>
+autocmd FileType haskell map <silent> <leader>s :GhcModSigCodegen<CR>
 autocmd FileType haskell vmap a= :Tabularize /=<CR>
 autocmd FileType haskell vmap a; :Tabularize /::<CR>
 autocmd FileType haskell vmap a- :Tabularize /-><CR>

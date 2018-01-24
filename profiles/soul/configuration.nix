@@ -9,21 +9,24 @@ in
       ./hardware-configuration.nix
       ./bootloader.nix
       ./library/devel/common.nix
+      ./library/devel/go.nix
       ./library/devel/haskell.nix
       ./library/docker/default.nix
       ./library/dotfiles/default.nix
       ./library/filesystems.nix
       ./library/fonts.nix
-      ./library/internet/chat.nix
-      ./library/internet/filesync.nix
       ./library/internet/browsers.nix
+      ./library/internet/chat.nix
+      ./library/internet/news.nix
       ./library/kernel.nix
       ./library/media.nix
       ./library/networking/default.nix
       ./library/office/common.nix
       ./library/office/libreoffice.nix
+      ./library/office/texlive.nix
       ./library/screensavers.nix
       ./library/security/default.nix
+      ./library/shell/terminology.nix
       ./library/shell/tmux.nix
       ./library/shell/zsh.nix
       ./library/users.nix

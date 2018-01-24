@@ -7,5 +7,7 @@
     ffmpeg
     gphoto2
     youtube-dl
+    digikam
+    pitivi
   ];
 }

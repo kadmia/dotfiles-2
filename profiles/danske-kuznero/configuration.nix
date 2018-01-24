@@ -7,17 +7,20 @@
       ./bootloader.nix
       ./library/devel/common.nix
       ./library/devel/dotnet.nix
+      ./library/devel/go.nix
       ./library/devel/haskell.nix
       ./library/docker/danske.nix
-      ./library/dotfiles/default.nix
+      ./library/dotfiles/danske.nix
       ./library/fonts.nix
       ./library/internet/browsers.nix
       ./library/internet/chat.nix
+      ./library/internet/news.nix
       ./library/kernel.nix
       ./library/networking/danske.nix
       ./library/office/common.nix
       ./library/screensavers.nix
       ./library/security/default.nix
+      ./library/shell/terminology.nix
       ./library/shell/tmux.nix
       ./library/shell/zsh.nix
       ./library/users.nix

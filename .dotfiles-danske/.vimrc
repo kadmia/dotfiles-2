@@ -56,6 +56,7 @@ set showbreak=>>\
 set lazyredraw
 set splitright
 set splitbelow
+set scrolloff=5 "leave 5 lines at the top and bottom while moving cursor
 " set diffopt+=iwhite
 if exists('g:loaded_fugitive')
   set statusline+=%{fugitive#statusline()}
@@ -259,20 +260,6 @@ nnoremap <leader>g "zyiw:vimgrep /<C-r>z/gj **/*
 nnoremap <leader>dd :diffthis<CR>
 nnoremap <leader>du :diffupdate<CR>
 nnoremap <leader>do :diffoff<CR>
-autocmd FileType haskell map <silent> <leader>t :GhcModType<CR>
-autocmd FileType haskell map <silent> <leader>T :GhcModTypeInsert<CR>
-autocmd FileType haskell map <silent> <leader>c :GhcModTypeClear<CR>
-autocmd FileType haskell map <silent> <leader>i :GhcModInfo<CR>
-autocmd FileType haskell map <silent> <leader>I :GhcModInfoPreview<CR>
-autocmd FileType haskell map <silent> <leader>l :GhcModLint<CR>
-autocmd FileType haskell map <silent> <leader>e :GhcModExpand<CR>
-autocmd FileType haskell map <silent> <leader>g :GhcModSigCodegen<CR>
-autocmd FileType haskell map <silent> <leader>s :GhcModSplitFunCase<CR>
-autocmd FileType haskell vmap a= :Tabularize /=<CR>
-autocmd FileType haskell vmap a; :Tabularize /::<CR>
-autocmd FileType haskell vmap a- :Tabularize /-><CR>
-autocmd FileType haskell vmap a, :Tabularize /<-<CR>
-autocmd FileType haskell vmap al :Tabularize /[\[\\|,]<CR>
 nnoremap <silent> <F11> :call system("wmctrl -ir " . v:windowid . " -b toggle,fullscreen")<CR>
 map <up> <nop>
 map <down> <nop>
@@ -291,7 +278,7 @@ let g:airline#extensions#tabline#left_alt_sep = ' '
 let g:airline#extensions#tabline#right_sep = ' '
 let g:airline#extensions#tabline#right_alt_sep = ' '
 let g:airline_powerline_fonts = 1
-let g:airline_theme='papercolor'
+let g:airline_theme='material'
 " let g:airline_theme = 'quantum'
 " }}}
 
@@ -328,6 +315,36 @@ hi hsConditional gui=NONE guifg=#2060A0
 hi hsInfix gui=NONE guifg=#2060A0
 hi hsType gui=NONE guifg=#008080
 hi hsOperator gui=NONE guifg=salmon
+
+autocmd FileType haskell map <silent> <leader>t :GhcModType<CR>
+autocmd FileType haskell map <silent> <leader>T :GhcModTypeInsert<CR>
+autocmd FileType haskell map <silent> <leader>c :GhcModTypeClear<CR>
+autocmd FileType haskell map <silent> <leader>i :GhcModInfo<CR>
+autocmd FileType haskell map <silent> <leader>I :GhcModInfoPreview<CR>
+autocmd FileType haskell map <silent> <leader>l :GhcModLint<CR>
+autocmd FileType haskell map <silent> <leader>e :GhcModExpand<CR>
+autocmd FileType haskell map <silent> <leader>s :GhcModSigCodegen<CR>
+autocmd FileType haskell vmap a= :Tabularize /=<CR>
+autocmd FileType haskell vmap a; :Tabularize /::<CR>
+autocmd FileType haskell vmap a- :Tabularize /-><CR>
+autocmd FileType haskell vmap a, :Tabularize /<-<CR>
+autocmd FileType haskell vmap al :Tabularize /[\[\\|,]<CR>
+" }}}
+
+" Go {{{
+autocmd FileType go setlocal nolist
+
+autocmd FileType go map <silent> <F2> :GoRename<CR>
+autocmd FileType go map <silent> <F3> :GoAlternate<CR>
+autocmd FileType go map <silent> <F4> :GoFmt<CR>
+autocmd FileType go map <silent> <F5> :GoRun<CR>
+autocmd FileType go map <silent> <F6> :GoTest<CR>
+autocmd FileType go map <silent> <S-F6> :GoTestFunc<CR>
+autocmd FileType go map <silent> <F7> :GoBuild<CR>
+autocmd FileType go map <silent> <F8> :GoLint<CR>
+autocmd FileType go map <silent> <S-F8> :GoErrCheck<CR>
+autocmd FileType go map <silent> <F9> :GoInfo<CR>
+autocmd FileType go map <silent> <F12> :GoDef<CR>
 " }}}
 
 " Markdown {{{

@@ -253,8 +253,8 @@ in
     name = "kuvim-themes";
     src = fetchgit {
       url = "https://github.com/kuznero/kuvim-themes.git";
-      rev = "fc922de48b85b811fa01d43db33524b08b5afbea";
-      sha256 = "20dbaf097af48937432f9bd696920157bb76ce63b4386b8e0ea9c56a1f61110d";
+      rev = "ebda0919ba741fa3df683c4a3d0662d76217b4ec";
+      sha256 = "169blg1l4j5j5j6ddvn5wqvdy0flka5mhwd8vi2jl0sv47j679j0";
     };
     dependencies = [];
   };
@@ -335,6 +335,16 @@ in
       url = "https://github.com/lnl7/vim-nix";
       rev = "867488a04c2ddc47f0f235f37599a06472fea299";
       sha256 = "1mwc06z9q45cigyxd0r9qnfs4ph6lbcwx50rf5lmpavakcn3vqir";
+    };
+    dependencies = [];
+  };
+
+  "go" = buildVimPlugin {
+    name = "go";
+    src = fetchgit {
+      url = "https://github.com/fatih/vim-go";
+      rev = "010d0cc592926e97140846655f92c5c685cec374";
+      sha256 = "1wj44xmygdw4nb963ds8vp2fdahc9wjbig64zgj087331qdk2gq2";
     };
     dependencies = [];
   };

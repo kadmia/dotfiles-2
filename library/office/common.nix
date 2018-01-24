@@ -6,5 +6,6 @@
     poppler_utils
     taskwarrior
     tasksh
+    ptask
   ];
 }
